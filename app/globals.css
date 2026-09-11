@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ivory: #F7F3EA;
+  --color-green: #214D33;
+  --color-gold: #C49A3A;
+  --color-red: #8F2D24;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-ivory);
+    color: var(--color-green);
+    font-family: var(--font-outfit), system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-green);
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-family: var(--font-seasons), 'The Seasons', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.03em;
+    line-height: 1.12;
+  }
+
+  h2 {
+    font-family: var(--font-seasons), 'The Seasons', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-family: var(--font-seasons), 'The Seasons', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+    line-height: 1.28;
+  }
+
+  p, span, li, a, button, input, textarea, select {
+    letter-spacing: 0;
+  }
+}
+
+/* Custom editorial focus ring conforming to WCAG 2.2 */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* Brand tri-color signature divider */
+.brand-accent-line {
+  height: 2px;
+  background: linear-gradient(90deg, #214D33 0%, #C49A3A 50%, #8F2D24 100%);
+}
+
+/* Subtle image reveal styles */
+.reveal-image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.reveal-image-container img {
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-image-container:hover img {
+  transform: scale(1.025);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F3EA;
+}
+::-webkit-scrollbar-thumb {
+  background: #214D33;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C49A3A;
+}
+
+/* Accessibility: Full reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal-image-container img {
+    transition: none !important;
+    transform: none !important;
+  }
+}
