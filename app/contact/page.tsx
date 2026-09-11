@@ -60,7 +60,7 @@ export default function ContactPage() {
       {/* ========================================================================= */}
       {/* 01. CONTACT HERO */}
       {/* ========================================================================= */}
-      <section className="py-16 md:py-20 bg-green text-ivory px-4 sm:px-6 lg:px-8 border-b border-gold/30">
+      <section className="pt-28 sm:pt-36 pb-16 md:pb-20 bg-green text-ivory px-4 sm:px-6 lg:px-8 border-b border-gold/30">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-ivory/10 border border-gold/40 text-gold text-xs font-semibold uppercase tracking-widest mb-4">
             <Sparkles className="w-3.5 h-3.5" />

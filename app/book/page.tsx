@@ -55,7 +55,7 @@ export default function BookPage() {
   };
 
   return (
-    <div className="flex flex-col w-full min-h-[85vh] justify-center py-12 md:py-20 px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col w-full min-h-[85vh] justify-center pt-28 sm:pt-36 pb-12 md:pb-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto w-full">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">

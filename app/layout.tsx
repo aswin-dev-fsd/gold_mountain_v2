@@ -101,7 +101,7 @@ export default function RootLayout({
     <html lang="en" className={`${outfit.variable} ${seasonsFallback.variable}`}>
       <body className="bg-ivory text-green font-sans min-h-screen flex flex-col antialiased selection:bg-gold/30 selection:text-green-deep">
         <Header />
-        <main className="flex-grow pt-[84px]">{children}</main>
+        <main className="flex-grow">{children}</main>
         <Footer />
         <WhatsAppButton />
       </body>

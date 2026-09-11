@@ -34,7 +34,7 @@ export default function StayPage() {
       {/* 01. STAY HERO */}
       {/* ========================================================================= */}
       <section
-        className="relative min-h-[70vh] md:min-h-[78vh] flex items-center justify-center bg-green-deep text-ivory px-4 sm:px-6 lg:px-8 py-20 overflow-hidden"
+        className="relative min-h-[70vh] md:min-h-[78vh] flex items-center justify-center bg-green-deep text-ivory px-4 sm:px-6 lg:px-8 pt-28 sm:pt-36 pb-20 overflow-hidden"
         aria-label="Accommodation at Gold Mountain"
       >
         <div className="absolute inset-0 z-0">

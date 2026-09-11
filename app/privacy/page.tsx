@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto w-full">
+    <div className="pt-28 sm:pt-36 pb-16 md:pb-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto w-full">
       <Link
         href="/"
         className="inline-flex items-center gap-1 text-xs text-green/70 hover:text-gold transition-colors font-medium mb-8"

@@ -17,7 +17,7 @@ export default function AboutPage() {
       {/* 01. ABOUT HERO */}
       {/* ========================================================================= */}
       <section
-        className="relative min-h-[65vh] md:min-h-[72vh] flex items-center justify-center bg-green-deep text-ivory px-4 sm:px-6 lg:px-8 py-20 overflow-hidden"
+        className="relative min-h-[65vh] md:min-h-[72vh] flex items-center justify-center bg-green-deep text-ivory px-4 sm:px-6 lg:px-8 pt-28 sm:pt-36 pb-20 overflow-hidden"
         aria-label="About Gold Mountain Wellness Resort"
       >
         <div className="absolute inset-0 z-0">

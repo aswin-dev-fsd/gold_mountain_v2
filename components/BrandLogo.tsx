@@ -32,7 +32,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       )}
       aria-label="Gold Mountain Wellness Resort — Return to Home"
     >
-      <div className="relative" style={{ width: `${width}px`, aspectRatio: "2.16 / 1" }}>
+      <div className="relative" style={{ width: `${width}px`, aspectRatio: "1.91 / 1" }}>
         <Image
           src={logoSrc}
           alt="Gold Mountain Wellness Resort"

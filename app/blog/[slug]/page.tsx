@@ -45,7 +45,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <article className="flex flex-col w-full">
       {/* Header / Breadcrumb */}
-      <div className="bg-white/60 border-b border-gold/20 py-4 px-4 sm:px-6 lg:px-8">
+      <div className="bg-white/60 border-b border-gold/20 pt-28 sm:pt-32 pb-4 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto flex items-center justify-between text-xs text-green/70">
           <Link
             href="/blog"

@@ -31,7 +31,7 @@ export default function BlogPage() {
       {/* 01. BLOG HERO */}
       {/* ========================================================================= */}
       <section
-        className="relative min-h-[50vh] md:min-h-[58vh] flex items-center justify-center bg-green-deep text-ivory px-4 sm:px-6 lg:px-8 py-16 overflow-hidden"
+        className="relative min-h-[50vh] md:min-h-[58vh] flex items-center justify-center bg-green-deep text-ivory px-4 sm:px-6 lg:px-8 pt-28 sm:pt-36 pb-16 overflow-hidden"
         aria-label="Gold Mountain Journal & Stories"
       >
         <div className="absolute inset-0 z-0">
